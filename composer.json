@@ -1,0 +1,18 @@
+{
+    "name": "farzinft/flog",
+    "description": "Customizing Laravel Log",
+    "authors": [
+        {
+            "name": "farzin fthi",
+            "email": "farzin.fthi@gmail.com"
+        }
+    ],
+    "autoload":{
+       "psr-4": {
+           "Flog\\": "src/"
+       }
+    },
+    "require": {
+        "morilog/jalali": "^2.3"
+    }
+}
