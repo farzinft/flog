@@ -7,7 +7,7 @@ you can log with custom name, custom format and custom time.
 Add package to your project
 
 ```
-composer require farzin/flog:"dev-master"
+composer require farzinft/flog:"dev-master"
 ```
 add service provider:
 ```
