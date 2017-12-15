@@ -21,11 +21,12 @@ class FlogServiceProvider extends ServiceProvider
         if (config('jalali_date')) {
             $this->app->register(JalaliServiceProvider::class);
         }
+        $this->configureMonolog();
     }
 
     public function register()
     {
-        $this->configureMonolog();
+
     }
 
     protected function configureMonolog()
